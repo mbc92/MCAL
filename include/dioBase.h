@@ -16,7 +16,7 @@ public:
         static_cast<Derived*>(this)->WriteChannel(channel, level);
     }
 
-    bool ReadChannel(const uint32_t channel) {
+    bool ReadChannel(const uint32_t channel)  {
         return static_cast<Derived*>(this)->ReadChannel(channel);
     }
 };

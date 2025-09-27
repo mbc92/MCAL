@@ -4,7 +4,7 @@
 #if defined(BOARD_ESP32)
     #include "ESP32/dio.h"
     namespace MCAL {
-        using Dio = DioEsp32;
+        using Dio = DioESP32;
     }
 
 #elif defined(BOARD_STM32)
