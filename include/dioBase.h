@@ -1,6 +1,6 @@
 #pragma once
 
-#include <cstdint>  // For uint32_t
+#include <cstdint>
 
 template <typename Derived>
 class DioBase {
