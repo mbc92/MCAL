@@ -3,7 +3,7 @@
 #include <cstdint>
 #include "nvs_flash.h"
 
-esp_err_t FlashESP32::Init()
+esp_err_t FlashESP32::init()
 {
     //Initialize NVS
     esp_err_t tRetVal = nvs_flash_init();

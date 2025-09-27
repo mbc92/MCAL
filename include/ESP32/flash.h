@@ -6,6 +6,6 @@ class FlashESP32 : public FlashBase<FlashESP32>
 {
 
 public:
-    esp_err_t Init();
+    esp_err_t init();
 
 };

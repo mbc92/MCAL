@@ -3,8 +3,10 @@
 // Expandable board-specific selection
 #if defined(BOARD_ESP32)
     #include "ESP32/dio.h"
+    #include "ESP32/flash.h"
     namespace MCAL {
         using Dio = DioESP32;
+        using Flash = FlashESP32;
     }
 
 #elif defined(BOARD_STM32)
