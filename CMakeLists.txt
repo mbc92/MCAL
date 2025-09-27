@@ -7,6 +7,7 @@ message(STATUS "Building MCAL for board: ${BOARD}")
 if(BOARD STREQUAL "ESP32")
     set(MCAL_SOURCES
         src/ESP32/dio.cpp
+        src/ESP32/flash.cpp
     )
 elseif(BOARD STREQUAL "STM32")
     set(BOARD "STM32")
