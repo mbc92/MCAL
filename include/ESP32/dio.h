@@ -1,7 +1,8 @@
+#pragma once
 
-#include <MCAL/include>
+#include "dioBase.h"
 
-class DioEsp32 : public DioBase<DioEsp32>
+class DioESP32 : public DioBase<DioESP32>
 {
 public:
     void WriteChannel(const uint32_t channel, bool level);
